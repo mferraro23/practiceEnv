@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b7978d6-faff-48a0-9673-de5e7a722629" name="Changes" comment="practice leetcode">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/practiceEnv/addTwoNumbers/addTwoNumbersSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practiceEnv/addTwoNumbers/addTwoNumbersSource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653340391079</updated>
       <workItem from="1653340392626" duration="133000" />
-      <workItem from="1653340587872" duration="6162000" />
+      <workItem from="1653340587872" duration="6323000" />
     </task>
     <task id="LOCAL-00001" summary="practice">
       <created>1653341986277</created>
@@ -110,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653354776213</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="practice leetcode">
+      <created>1653356543314</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653356543314</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

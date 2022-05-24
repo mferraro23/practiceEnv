@@ -1,7 +1,5 @@
 package practiceEnv.addTwoNumbers;
 
-import java.util.Arrays;
-
 public class addTwoNumbersSource {
 
     public addTwoNumbersSource() {
