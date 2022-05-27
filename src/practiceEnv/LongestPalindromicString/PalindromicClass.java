@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class PalindromicClass {
     public PalindromicClass(){
+        int current, next = 0;
         // fix
         // solution, start in the middle, compare index -1, index +1.
         // if equal continue.
@@ -14,34 +15,38 @@ public class PalindromicClass {
         String s2 = s.substring(s.length()/2);
         System.out.println(s1 + "," + s2);
          */
+        String s = "dsastv";
+        System.out.println(PalindromicClassRun(s));
 
-        //System.out.println(PalindromicClassRun(s));
     }
     public String PalindromicClassRun(String s){
-        StringBuilder newString = new StringBuilder(s);
-        int len = s.length();
-
-        if (len%2==0){
-            newString.append("1");
-        }
-        int j  = len;
-        for(int i = 0; i<s.length();i++){
-            StringBuilder n = new StringBuilder(newString);
-            if(newString.toString().equals(n.reverse().toString())){
-                return newString.toString();
-            }
-            else{
-                try{
-                    newString = new StringBuilder(newString.substring(i+1, j));
+        StringBuilder s1 = new StringBuilder(s);
+        String s2;
+        int middle = s.length()%2!=0?(s.length()/2):s.length()/2-1;
+        System.out.println(middle);
+        boolean canBeFound = true;
+        if(middle%2!=0){
+            int i, j;
+            i = middle - 1;
+            j = middle+1;
+            while(canBeFound){
+                if (s.charAt(i)==s.charAt(j)){
+                    s1 = new StringBuilder(s.substring(i,j+1));
+                    i-=1;
+                    j+=1;
                 }
-                catch(Exception e){
-                    System.out.println("No Palindrome");
-                    break;
+                else{
+                    canBeFound = false;
                 }
-
             }
-            j-=1;
         }
-        return s;
+
+        else{
+            // brute force change
+            s1 = new StringBuilder(s.substring(0,middle+2));
+            s2 = s.substring(middle);
+            System.out.println(s1 + "," + s2);
+        }
+        return s1.toString();
     }
 }
