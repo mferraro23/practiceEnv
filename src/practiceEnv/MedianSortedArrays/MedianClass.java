@@ -6,14 +6,14 @@ public class MedianClass {
     public MedianClass(){
         int[] num1 = {1,2,6,4,5};
         int[] num2 = {9,7,8,3,10};
-        MedianClassRun(num1, num2);
+        System.out.println(MedianClassRun(num1, num2));
     }
     public double MedianClassRun(int[] nums1, int[] nums2) {
-        double median = 0.0;
-        int val1 = 0;
-        int val2 = 0;
+        double median;
+        int val1, val2;
         int length = nums1.length + nums2.length;
         int[] mergedArrays = new int[length];
+
         int i;
         for(i=0;i<nums1.length;i++) {
             mergedArrays[i] = nums1[i];
@@ -24,9 +24,6 @@ public class MedianClass {
             j += 1;
         }
         Arrays.sort(mergedArrays);
-        for(int nums: mergedArrays){
-            System.out.print(nums);
-        }
 
         if(length % 2 == 0){
             val1 = (length / 2) - 1;
@@ -37,7 +34,6 @@ public class MedianClass {
             val1 = length/2;
             median = mergedArrays[val1];
         }
-        System.out.println("\n" + val1 + "," + val2 + "," + median);
         return median;
     }
 }
