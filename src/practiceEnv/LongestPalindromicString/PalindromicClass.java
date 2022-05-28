@@ -4,10 +4,11 @@ import java.util.Arrays;
 
 public class PalindromicClass {
     public PalindromicClass(){
-        String s = "cstgvkbrxacmpxdxxktktvpdzcuxmnhvuxdgsmskgeeawzeikhtmhdvnccbrgifpzmiuytfmeyfoxsntrdtxeuxcqsndexbgfxnthqwveujqzemloooyddparbjcuiwpopjwvvmwblsamkhjhlnoxinkpsempexmipifsfwzxbetgvfnkngzxcpizwctpdlpngjpyovmjllxfiwktghkxvyelwjwdztujmunijfsfdvmhgqhlpouewgyznphlmccjmqaqncwbeqheohibafqfunfywmrvqvjygjwqoclijwkcfiuaiymeagdbwyejnvtosxylptbtyoahfzfmwzrkhzdamknleroffmsqcaryibamgdpcumlhrblypddzhaxfeztokgogzgvpfvlmetiwsamhdidmvxavleryfyakendwrbslcavlqkerrnvpuzhdgwzuyorxzbkzhxhpbvkflgxouvaavxrdzsjlgrmogzvlhhdidldsxqhrqlryaanffhxnutcycnczuedtrwcnfiqrtoafvdfnfhxhyjivzalozrbrajboecfyalisxxanduzraqdrbzsbkobaieqpzcawrunxucypqyjnmrlrlivrrwwhdpekeelsphhunzbhkkejvqfopjsuholutgmtnleqdrntbqgrobnuhqpdkbjtikijkdiwqvnxgajaaqgswrdamzv";
+        String s = "jbscjsncjbcjksnkvnsrhcbeclcmnsjvbsjvbgfyrgfgfgfsbnckasmclamlamclsmclsmcspcmekvngfyiouhhutrdrdtrvybunimkokhuftdtgvjhjhkj";
         System.out.println(PalindromicClassRun(s));
     }
     public String PalindromicClassRun(String s) {
+        // can improve
         StringBuilder s1;
         StringBuilder max = new StringBuilder();
         int atempts = 0;
@@ -34,7 +35,6 @@ public class PalindromicClass {
                             if(max.length()<s1.length()){
                                 max = s1;
                             }
-
                         }
                     }
                     atempts+=1;
