@@ -4,49 +4,46 @@ import java.util.Arrays;
 
 public class PalindromicClass {
     public PalindromicClass(){
-        int current, next = 0;
-        // fix
-        // solution, start in the middle, compare index -1, index +1.
-        // if equal continue.
-        // if not equal create two new strings split at the original string middle. with the middle term at each end.
-        /* NOT EQUAL, NOT EVEN
-        String s = "sdaddca";
-        StringBuilder s1 = new StringBuilder(s.substring(0, s.length() / 2)).append(s.charAt(((s.length())/2)+1));
-        String s2 = s.substring(s.length()/2);
-        System.out.println(s1 + "," + s2);
-         */
-        String s = "dsastv";
+        String s = "cstgvkbrxacmpxdxxktktvpdzcuxmnhvuxdgsmskgeeawzeikhtmhdvnccbrgifpzmiuytfmeyfoxsntrdtxeuxcqsndexbgfxnthqwveujqzemloooyddparbjcuiwpopjwvvmwblsamkhjhlnoxinkpsempexmipifsfwzxbetgvfnkngzxcpizwctpdlpngjpyovmjllxfiwktghkxvyelwjwdztujmunijfsfdvmhgqhlpouewgyznphlmccjmqaqncwbeqheohibafqfunfywmrvqvjygjwqoclijwkcfiuaiymeagdbwyejnvtosxylptbtyoahfzfmwzrkhzdamknleroffmsqcaryibamgdpcumlhrblypddzhaxfeztokgogzgvpfvlmetiwsamhdidmvxavleryfyakendwrbslcavlqkerrnvpuzhdgwzuyorxzbkzhxhpbvkflgxouvaavxrdzsjlgrmogzvlhhdidldsxqhrqlryaanffhxnutcycnczuedtrwcnfiqrtoafvdfnfhxhyjivzalozrbrajboecfyalisxxanduzraqdrbzsbkobaieqpzcawrunxucypqyjnmrlrlivrrwwhdpekeelsphhunzbhkkejvqfopjsuholutgmtnleqdrntbqgrobnuhqpdkbjtikijkdiwqvnxgajaaqgswrdamzv";
         System.out.println(PalindromicClassRun(s));
-
     }
-    public String PalindromicClassRun(String s){
-        StringBuilder s1 = new StringBuilder(s);
-        String s2;
-        int middle = s.length()%2!=0?(s.length()/2):s.length()/2-1;
-        System.out.println(middle);
-        boolean canBeFound = true;
-        if(middle%2!=0){
-            int i, j;
-            i = middle - 1;
-            j = middle+1;
-            while(canBeFound){
-                if (s.charAt(i)==s.charAt(j)){
-                    s1 = new StringBuilder(s.substring(i,j+1));
-                    i-=1;
-                    j+=1;
-                }
-                else{
-                    canBeFound = false;
+    public String PalindromicClassRun(String s) {
+        StringBuilder s1;
+        StringBuilder max = new StringBuilder();
+        int atempts = 0;
+        if (s.length() <= 1) {
+            return s;
+        } else if (s.length() == 2 && s.charAt(0) != s.charAt(1)) {
+            return String.valueOf(s.charAt(0));
+        } else if (s.length() == 2 && s.charAt(0) == s.charAt(1)) {
+            return s;
+        } else {
+            for (int i = 0; i < s.length(); i++) {
+                for (int j = s.length() - 1; j > 0; j--) {
+                    if (i!=j && s.charAt(i) == s.charAt(j)) {
+                        if(i>j){
+                            s1 = new StringBuilder(s.substring(j, i+1));
+                        }
+                        else{
+                            s1 = new StringBuilder(s.substring(i, j + 1));
+                        }
+                        if (s1.toString().equals(s1.reverse().toString())) {
+                            if(atempts==0){
+                                return s1.toString();
+                            }
+                            if(max.length()<s1.length()){
+                                max = s1;
+                            }
+
+                        }
+                    }
+                    atempts+=1;
                 }
             }
         }
-
-        else{
-            // brute force change
-            s1 = new StringBuilder(s.substring(0,middle+2));
-            s2 = s.substring(middle);
-            System.out.println(s1 + "," + s2);
+        if(max.length()<1){
+            return String.valueOf(s.charAt(0));
         }
-        return s1.toString();
+        return max.toString();
     }
 }
