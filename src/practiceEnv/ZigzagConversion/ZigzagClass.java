@@ -8,6 +8,14 @@ public class ZigzagClass {
         System.out.println(ZigzagRun(rows, s));
     }
     public String ZigzagRun(int rows, String s){
+        // only works with rows = 3
+        // fix for more rows
+        // --------------------------- //
+        // Create StringBuilderList
+        // For each character index add to corresponding array index
+        // Once index rows is reached head back up the StringBuilderList
+        // Continue Zigzag pattern
+        // Combine all StringBuilderLists into one StringBuilder, return that StringBuilder.toString().
         StringBuilder newString = new StringBuilder();
         int currentRow = 0;
         while(currentRow != rows){

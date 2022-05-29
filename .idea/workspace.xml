@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b7978d6-faff-48a0-9673-de5e7a722629" name="Changes" comment="LeetCode Practice">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/practiceEnv/ZigzagConversion/ZigzagClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practiceEnv/ZigzagConversion/ZigzagClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +132,7 @@
       <workItem from="1653340392626" duration="133000" />
       <workItem from="1653340587872" duration="14805000" />
       <workItem from="1653616876833" duration="8131000" />
-      <workItem from="1653686995140" duration="14425000" />
+      <workItem from="1653686995140" duration="14721000" />
     </task>
     <task id="LOCAL-00001" summary="practice">
       <created>1653341986277</created>
@@ -233,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653779077074</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="LeetCode Practice">
+      <created>1653795332788</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1653795332788</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
