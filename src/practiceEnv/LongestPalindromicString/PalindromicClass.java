@@ -12,6 +12,8 @@ public class PalindromicClass {
         StringBuilder s1;
         StringBuilder max = new StringBuilder();
         int atempts = 0;
+
+        // Base cases
         if (s.length() <= 1) {
             return s;
         } else if (s.length() == 2 && s.charAt(0) != s.charAt(1)) {
@@ -19,6 +21,7 @@ public class PalindromicClass {
         } else if (s.length() == 2 && s.charAt(0) == s.charAt(1)) {
             return s;
         } else {
+            // Brute Force
             for (int i = 0; i < s.length(); i++) {
                 for (int j = s.length() - 1; j > 0; j--) {
                     if (i!=j && s.charAt(i) == s.charAt(j)) {
