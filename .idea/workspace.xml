@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b7978d6-faff-48a0-9673-de5e7a722629" name="Changes" comment="LeetCode Practice">
-      <change beforePath="$PROJECT_DIR$/src/practiceEnv/ZigzagConversion/ZigzagClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practiceEnv/ZigzagConversion/ZigzagClass.java" afterDir="false" />
+    <list default="true" id="2b7978d6-faff-48a0-9673-de5e7a722629" name="Changes" comment="LeetCode Practice (fix for Zigzag)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practiceEnv/twoSum/practiceSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practiceEnv/twoSum/practiceSpace.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,20 +46,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ZigzagDriver">
-    <configuration name="ListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practiceEnv.addTwoNumbers.ListNode" />
-      <module name="practiceEnv" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practiceEnv.addTwoNumbers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.controlSpace">
     <configuration name="MedianDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practiceEnv.MedianSortedArrays.MedianDriver" />
       <module name="practiceEnv" />
@@ -98,6 +86,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="controlSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practiceEnv.twoSum.controlSpace" />
+      <module name="practiceEnv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practiceEnv.twoSum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="longest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practiceEnv.LongestString.longest" />
       <module name="practiceEnv" />
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.controlSpace" />
         <item itemvalue="Application.ZigzagDriver" />
         <item itemvalue="Application.PalindromicDriver" />
         <item itemvalue="Application.MedianDriver" />
         <item itemvalue="Application.longest" />
-        <item itemvalue="Application.ListNode" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +133,7 @@
       <workItem from="1653340392626" duration="133000" />
       <workItem from="1653340587872" duration="14805000" />
       <workItem from="1653616876833" duration="8131000" />
-      <workItem from="1653686995140" duration="14721000" />
+      <workItem from="1653686995140" duration="15578000" />
     </task>
     <task id="LOCAL-00001" summary="practice">
       <created>1653341986277</created>
@@ -239,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653795332788</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="LeetCode Practice (fix for Zigzag)">
+      <created>1653795643390</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1653795643390</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +282,7 @@
     <MESSAGE value="practice leetcode (longest palindrome, slow performance still works properly)" />
     <MESSAGE value="updates" />
     <MESSAGE value="LeetCode Practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode Practice" />
+    <MESSAGE value="LeetCode Practice (fix for Zigzag)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode Practice (fix for Zigzag)" />
   </component>
 </project>
