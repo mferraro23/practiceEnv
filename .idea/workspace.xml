@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b7978d6-faff-48a0-9673-de5e7a722629" name="Changes" comment="LeetCode Practice (finished LongestString)">
-      <change beforePath="$PROJECT_DIR$/src/practiceEnv/LongestPalindromicString/PalindromicClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practiceEnv/LongestPalindromicString/PalindromicClass.java" afterDir="false" />
+    <list default="true" id="2b7978d6-faff-48a0-9673-de5e7a722629" name="Changes" comment="LeetCode Practice (finished PalindromicString)">
+      <change beforePath="$PROJECT_DIR$/src/practiceEnv/addTwoNumbers/addTwoNumbersSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practiceEnv/addTwoNumbers/addTwoNumbersSource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +132,7 @@
       <workItem from="1653340392626" duration="133000" />
       <workItem from="1653340587872" duration="14805000" />
       <workItem from="1653616876833" duration="8131000" />
-      <workItem from="1653686995140" duration="16013000" />
+      <workItem from="1653686995140" duration="16342000" />
     </task>
     <task id="LOCAL-00001" summary="practice">
       <created>1653341986277</created>
@@ -267,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653798571174</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="LeetCode Practice (finished PalindromicString)">
+      <created>1653798641447</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1653798641447</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +313,7 @@
     <MESSAGE value="LeetCode Practice (finished twoSum)" />
     <MESSAGE value="LeetCode Practice (finished MedianOfTwoArrays)" />
     <MESSAGE value="LeetCode Practice (finished LongestString)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode Practice (finished LongestString)" />
+    <MESSAGE value="LeetCode Practice (finished PalindromicString)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode Practice (finished PalindromicString)" />
   </component>
 </project>
