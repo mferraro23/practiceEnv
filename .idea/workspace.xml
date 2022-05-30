@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b7978d6-faff-48a0-9673-de5e7a722629" name="Changes" comment="LeetCode Practice (finished addTwoNumbers)">
+    <list default="true" id="2b7978d6-faff-48a0-9673-de5e7a722629" name="Changes" comment="LeetCode Practice (finished ZigZag)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practiceEnv/ZigzagConversion/ZigzagClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practiceEnv/ZigzagConversion/ZigzagClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ZigzagDriver">
+  <component name="RunManager" selected="Application.ReverseDriver">
     <configuration name="MedianDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practiceEnv.MedianSortedArrays.MedianDriver" />
       <module name="practiceEnv" />
@@ -66,6 +65,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="practiceEnv.LongestPalindromicString.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practiceEnv.ReverseInt32.ReverseDriver" />
+      <module name="practiceEnv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practiceEnv.ReverseInt32.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,26 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="longest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practiceEnv.LongestString.longest" />
-      <module name="practiceEnv" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practiceEnv.LongestString.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseDriver" />
         <item itemvalue="Application.ZigzagDriver" />
         <item itemvalue="Application.controlSpace" />
         <item itemvalue="Application.PalindromicDriver" />
         <item itemvalue="Application.MedianDriver" />
-        <item itemvalue="Application.longest" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +133,7 @@
       <workItem from="1653340587872" duration="14805000" />
       <workItem from="1653616876833" duration="8131000" />
       <workItem from="1653686995140" duration="16367000" />
-      <workItem from="1653830635667" duration="3752000" />
+      <workItem from="1653830635667" duration="5883000" />
     </task>
     <task id="LOCAL-00001" summary="practice">
       <created>1653341986277</created>
@@ -290,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653875729618</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="LeetCode Practice (finished ZigZag)">
+      <created>1653878072979</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1653878072979</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,6 +337,7 @@
     <MESSAGE value="LeetCode Practice (finished LongestString)" />
     <MESSAGE value="LeetCode Practice (finished PalindromicString)" />
     <MESSAGE value="LeetCode Practice (finished addTwoNumbers)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode Practice (finished addTwoNumbers)" />
+    <MESSAGE value="LeetCode Practice (finished ZigZag)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode Practice (finished ZigZag)" />
   </component>
 </project>
