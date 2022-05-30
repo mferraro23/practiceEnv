@@ -9,29 +9,29 @@ public class ZigzagClass {
 
         System.out.println(ZigzagRun(rows, s));
     }
-    public String ZigzagRun(int rows, String s){
+    public String ZigzagRun(int numRows, String s){
         // Base Case
-        if (rows <= 1){
+        if (numRows <= 1){
             return s;
         }
         // Declare StringBuilder Array
-        StringBuilder[] newString = new StringBuilder[rows];
+        StringBuilder[] newString = new StringBuilder[numRows];
         // Init newStringBuilder for each index
-        for (int l = 0; l < rows; l++){
+        for (int l = 0; l < numRows; l++){
             newString[l] = new StringBuilder();
         }
         // Declare finalString to append all indices to
         StringBuilder finalString = new StringBuilder();
 
-        // Direction = 0 means we are going 0->rows
+        // Direction = 0 means we are going 0->numRows
         int direction = 0;
         for(int i=0, j=0; i<s.length();i++){
             // If at the bottom then append in ascending order
             if (direction == 0){
-                boolean top = j>=rows-1;
+                boolean top = j>=numRows-1;
                 newString[j].append(s.charAt(i));
                 if(top){
-                    // Direction = 1 means we are going rows->0
+                    // Direction = 1 means we are going numRows->0
                     direction = 1;
                 }
                 // Check if we are at the top
