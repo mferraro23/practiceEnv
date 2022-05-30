@@ -9,7 +9,6 @@ public class ReverseClass {
     public int reverse(int x){
         // Create String value |x|
         StringBuilder reverseInt = new StringBuilder(String.valueOf(Math.abs(x)));
-
         // If x<0 add negative sign to end
         if(x<0){
             reverseInt.append("-");
