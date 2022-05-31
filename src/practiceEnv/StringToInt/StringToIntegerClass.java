@@ -6,37 +6,30 @@ public class StringToIntegerClass {
         System.out.println(toInt(s));
     }
     public int toInt(String s){
-        String integerString = s.strip();
-        int posFlag = 0;
-        //-----------------Base Case-----------------
+        StringBuilder integerString = new StringBuilder(s.strip());
+        int posFlag = 0, count = 0, returnInt;
+
+        // If string is empty return 0
         if(integerString.isEmpty()){
             return 0;
         }
-        if(integerString.charAt(0) == '+' ){
-            integerString = integerString.substring(1);
-        }
-        if(integerString.charAt(0)=='-'){
+
+        // If it begins with negative sign set flag to 1
+        if(integerString.charAt(0) == '-'){
             posFlag = 1;
-            integerString = integerString.substring(1);
+            integerString = new StringBuilder(integerString.substring(1));
         }
-        if(!Character.isDigit(integerString.charAt(0))){
-            return 0;
+        // If it begins with + don't change the flag
+        else if(integerString.charAt(0) == '+'){
+            integerString = new StringBuilder(integerString.substring(1));
         }
-
-
-        //-----------------Base Case-----------------
-
-        int returnInt;
-        if (posFlag == 1){
-            integerString = '-' + integerString;
-        }
-
-        for(int i = 0; i < integerString.length(); i++){
-            if(integerString.charAt(i) != '-' && !Character.isDigit(integerString.charAt(i))){
-                integerString = integerString.substring(0, i);
+        for(int i = 0; i<integerString.length(); i++){
+            if(!Character.isDigit(integerString.charAt(i))){
+                integerString = new StringBuilder(integerString.substring(0,i));
+                break;
             }
         }
-        int count = 0;
+        // If there are no Digits in the string return 0
         for(int i = 0; i<integerString.length(); i++){
             if(!Character.isDigit(integerString.charAt(i))){
                 count+=1;
@@ -47,7 +40,11 @@ public class StringToIntegerClass {
         }
 
         try{
-            returnInt = Integer.parseInt(integerString);
+            if(posFlag == 1){
+                integerString.reverse().append('-');
+                integerString.reverse();
+            }
+            returnInt = Integer.parseInt(integerString.toString());
         }
         catch(NumberFormatException e){
             if(posFlag==0){
