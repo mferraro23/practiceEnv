@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b7978d6-faff-48a0-9673-de5e7a722629" name="Changes" comment="LeetCode Practice (finished ReverseInt32)">
+    <list default="true" id="2b7978d6-faff-48a0-9673-de5e7a722629" name="Changes" comment="LeetCode Practice (started StringToInt)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practiceEnv/StringToInt/StringToIntegerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practiceEnv/StringToInt/StringToIntegerClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -135,7 +137,7 @@
       <workItem from="1653686995140" duration="16367000" />
       <workItem from="1653830635667" duration="6174000" />
       <workItem from="1653922069964" duration="1174000" />
-      <workItem from="1653963809994" duration="2860000" />
+      <workItem from="1653963809994" duration="4661000" />
     </task>
     <task id="LOCAL-00001" summary="practice">
       <created>1653341986277</created>
@@ -326,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653880530433</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="LeetCode Practice (started StringToInt)">
+      <created>1653966860862</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1653966860862</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,6 +378,7 @@
     <MESSAGE value="LeetCode Practice (finished addTwoNumbers)" />
     <MESSAGE value="LeetCode Practice (finished ZigZag)" />
     <MESSAGE value="LeetCode Practice (finished ReverseInt32)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode Practice (finished ReverseInt32)" />
+    <MESSAGE value="LeetCode Practice (started StringToInt)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode Practice (started StringToInt)" />
   </component>
 </project>
