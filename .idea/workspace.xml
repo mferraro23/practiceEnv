@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b7978d6-faff-48a0-9673-de5e7a722629" name="Changes" comment="LeetCode Practice (continued work on StringToInt)">
+    <list default="true" id="2b7978d6-faff-48a0-9673-de5e7a722629" name="Changes" comment="LeetCode Practice (Finished StringToInt)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practiceEnv/StringToInt/StringToIntegerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practiceEnv/StringToInt/StringToIntegerClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +46,13 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StringToIntegerDriver">
-    <configuration name="PalindromicDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practiceEnv.LongestPalindromicString.PalindromicDriver" />
+  <component name="RunManager" selected="Application.PalindromeNumberDriver">
+    <configuration name="PalindromeNumberDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practiceEnv.PalindromeNumber.PalindromeNumberDriver" />
       <module name="practiceEnv" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practiceEnv.LongestPalindromicString.*" />
+          <option name="PATTERN" value="practiceEnv.PalindromeNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalindromeNumberDriver" />
         <item itemvalue="Application.StringToIntegerDriver" />
         <item itemvalue="Application.ReverseDriver" />
         <item itemvalue="Application.ZigzagDriver" />
         <item itemvalue="Application.controlSpace" />
-        <item itemvalue="Application.PalindromicDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +138,7 @@
       <workItem from="1653922069964" duration="1174000" />
       <workItem from="1653963809994" duration="5613000" />
       <workItem from="1653969609399" duration="78000" />
-      <workItem from="1654035045363" duration="835000" />
+      <workItem from="1654035045363" duration="1810000" />
     </task>
     <task id="LOCAL-00001" summary="practice">
       <created>1653341986277</created>
@@ -351,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653969583271</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="LeetCode Practice (Finished StringToInt)">
+      <created>1654036011997</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1654036011997</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,6 +402,7 @@
     <MESSAGE value="LeetCode Practice (finished ReverseInt32)" />
     <MESSAGE value="LeetCode Practice (started StringToInt)" />
     <MESSAGE value="LeetCode Practice (continued work on StringToInt)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode Practice (continued work on StringToInt)" />
+    <MESSAGE value="LeetCode Practice (Finished StringToInt)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode Practice (Finished StringToInt)" />
   </component>
 </project>
