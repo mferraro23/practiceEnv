@@ -2,18 +2,38 @@ package practiceEnv.StringToInt;
 
 public class StringToIntegerClass {
     public StringToIntegerClass(){
-        String s = "-298239483957349578734739473947937";
+        String s = "+-12";
         System.out.println(toInt(s));
     }
     public int toInt(String s){
         String integerString = s.strip();
+        int posFlag = 0;
         //-----------------Base Case-----------------
         if(integerString.isEmpty()){
             return 0;
         }
-        else if(integerString.charAt(0) != '-'){
-            if(!Character.isDigit(integerString.charAt(0))){
-                return 0;
+        if(integerString.charAt(0) == '+' ){
+            integerString = integerString.substring(1);
+        }
+        if(integerString.charAt(0)=='-'){
+            posFlag = 1;
+            integerString = integerString.substring(1);
+        }
+        if(!Character.isDigit(integerString.charAt(0))){
+            return 0;
+        }
+
+
+        //-----------------Base Case-----------------
+
+        int returnInt;
+        if (posFlag == 1){
+            integerString = '-' + integerString;
+        }
+
+        for(int i = 0; i < integerString.length(); i++){
+            if(integerString.charAt(i) != '-' && !Character.isDigit(integerString.charAt(i))){
+                integerString = integerString.substring(0, i);
             }
         }
         int count = 0;
@@ -24,21 +44,6 @@ public class StringToIntegerClass {
         }
         if (count == integerString.length()){
             return 0;
-        }
-        //-----------------Base Case-----------------
-
-        int returnInt;
-        int posFlag = 0;
-        if(integerString.charAt(0) == '+' ){
-            integerString = integerString.substring(1);
-        }
-        else{
-            posFlag = 1;
-        }
-        for(int i = 0; i < integerString.length(); i++){
-            if(integerString.charAt(i) != '-' && !Character.isDigit(integerString.charAt(i))){
-                integerString = integerString.substring(0, i);
-            }
         }
 
         try{
