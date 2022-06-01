@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b7978d6-faff-48a0-9673-de5e7a722629" name="Changes" comment="LeetCode Practice (Started Regular Expression)">
+    <list default="true" id="2b7978d6-faff-48a0-9673-de5e7a722629" name="Changes" comment="LeetCode Practice (Finished Regular Expression)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/practiceEnv/RegularExpression/RegularExpressionClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practiceEnv/RegularExpression/RegularExpressionClass.java" afterDir="false" />
     </list>
@@ -140,7 +140,7 @@
       <workItem from="1653963809994" duration="5613000" />
       <workItem from="1653969609399" duration="78000" />
       <workItem from="1654035045363" duration="4417000" />
-      <workItem from="1654114261229" duration="1643000" />
+      <workItem from="1654114261229" duration="1854000" />
     </task>
     <task id="LOCAL-00001" summary="practice">
       <created>1653341986277</created>
@@ -373,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654048590437</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="LeetCode Practice (Finished Regular Expression)">
+      <created>1654116060496</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1654116060496</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,6 +428,7 @@
     <MESSAGE value="LeetCode Practice (Finished StringToInt)" />
     <MESSAGE value="LeetCode Practice (Finished PalindromeNumber)" />
     <MESSAGE value="LeetCode Practice (Started Regular Expression)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode Practice (Started Regular Expression)" />
+    <MESSAGE value="LeetCode Practice (Finished Regular Expression)" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode Practice (Finished Regular Expression)" />
   </component>
 </project>
