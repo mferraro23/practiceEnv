@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b7978d6-faff-48a0-9673-de5e7a722629" name="Changes" comment="LeetCode Practice (Finished Integer To Roman)">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,19 +35,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Michael/Documents/GitHub/practiceEnv",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
-  <component name="RunManager" selected="Application.RomanToIntegerDriver">
+}]]></component>
+  <component name="RunManager" selected="Application.MinMaxDriver">
     <configuration name="IntegerToRomanDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practiceEnv.IntegerToRoman.IntegerToRomanDriver" />
       <module name="practiceEnv" />
@@ -60,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MostWaterDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practiceEnv.ContainerWithTheMostWater.MostWaterDriver" />
+    <configuration name="MinMaxDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practiceEnv.WeeklyChallenge_6_4_2022.MinMaxGame.MinMaxDriver" />
       <module name="practiceEnv" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practiceEnv.ContainerWithTheMostWater.*" />
+          <option name="PATTERN" value="practiceEnv.WeeklyChallenge_6_4_2022.MinMaxGame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeNumberDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practiceEnv.PalindromeNumber.PalindromeNumberDriver" />
+    <configuration name="MostWaterDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practiceEnv.ContainerWithTheMostWater.MostWaterDriver" />
       <module name="practiceEnv" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practiceEnv.PalindromeNumber.*" />
+          <option name="PATTERN" value="practiceEnv.ContainerWithTheMostWater.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinMaxDriver" />
         <item itemvalue="Application.RomanToIntegerDriver" />
         <item itemvalue="Application.IntegerToRomanDriver" />
         <item itemvalue="Application.MostWaterDriver" />
         <item itemvalue="Application.RegularExpressionDriver" />
-        <item itemvalue="Application.PalindromeNumberDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -142,6 +144,7 @@
       <workItem from="1654114261229" duration="1947000" />
       <workItem from="1654116329913" duration="523000" />
       <workItem from="1654131363254" duration="4590000" />
+      <workItem from="1654396241542" duration="3630000" />
     </task>
     <task id="LOCAL-00001" summary="practice">
       <created>1653341986277</created>
