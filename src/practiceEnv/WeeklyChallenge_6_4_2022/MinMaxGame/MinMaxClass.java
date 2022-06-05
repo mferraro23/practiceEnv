@@ -1,9 +1,6 @@
 package practiceEnv.WeeklyChallenge_6_4_2022.MinMaxGame;
 
-import java.awt.*;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
 
 public class MinMaxClass {
     public MinMaxClass(){
@@ -19,12 +16,12 @@ public class MinMaxClass {
             newNums = new int[n];
             for(int i = 0; i<n; i++){
                 if(i%2==0){
-                    if(i < n / 2 && i >= 0){
+                    if(i < n / 2){
                         newNums[i] = Math.min(nums[2*i], nums[2 * i +1]);
                     }
                 }
                 else {
-                    if(i < n / 2 && i >= 0){
+                    if(i < n / 2){
                         newNums[i] = Math.max(nums[2 * i], nums[2 * i + 1]);
                     }
                 }
